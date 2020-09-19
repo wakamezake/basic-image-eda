@@ -13,12 +13,13 @@ except FileNotFoundError:
     long_description = DESCRIPTION
 
 REQUIRED = [
-    # 'opencv-python',
-    # 'numpy',
-    # 'matplotlib',
-    # 'skimage.io',
-    # 'tifffile',
-    # 'tqdm',
+    'opencv-python',
+    'numpy',
+    'matplotlib',
+    'skimage.io',
+    'tifffile',
+    'tqdm',
+    'Pillow'
 ]
 
 setup(
